@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.a0flow/extractedge",
+  "title": "ExtractEdge",
+  "description": "Turn any web page into clean LLM-ready markdown. Firecrawl-lite: fast, cheap (0.001 USDC/extract via x402 on Base), free demo, MCP-native.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://extractedge.lastunmihai1986.workers.dev/mcp"
+    }
+  ]
+}
