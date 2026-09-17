@@ -1,9 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "com.a0flow/extractedge",
+  "name": "io.github.vasilicasijarvis/extractedge",
   "title": "ExtractEdge",
-  "description": "Turn any web page into clean LLM-ready markdown. Firecrawl-lite: fast, cheap (0.001 USDC/extract via x402 on Base), free demo, MCP-native.",
+  "description": "Any web page -> clean markdown. Firecrawl-lite, 0.001 USDC/extract (x402, Base), free demo.",
   "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/vasilicasijarvis/extractedge",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
